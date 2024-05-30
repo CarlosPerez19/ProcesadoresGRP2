@@ -26,11 +26,14 @@ public class Main {
         // Integrante 3 Adrian Ramos (El keepchup)
         procesadores_moviles apple = new procesadores_moviles();
 
+        System.out.println("\nProcesadores de moviles\n");
         apple.setNombre("A17 Pro");
         apple.setNucleos(6);
         apple.setTdp(8);
         apple.setVelocidad(12.16);
         apple.setArquitectura("ARM");
         apple.setEficiencia(true);
+        apple.imprimirDatos();
+        apple.ahorro_Energia();
     }
 }

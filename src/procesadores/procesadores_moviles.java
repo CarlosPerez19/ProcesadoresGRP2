@@ -19,6 +19,6 @@ public class procesadores_moviles extends PROCESADORES{
     }
 
     public void ahorro_Energia(){
-        System.out.println("Ahorrando Energia");
+        System.out.println("Ahorrando Energia...");
     }
 }
