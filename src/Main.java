@@ -52,11 +52,13 @@ public class Main {
         System.out.println("\nProcesadores de moviles\n");
         apple.setNombre("A17 Pro");
         apple.setNucleos(6);
+        apple.setNucleosEficiencia(4);
+        apple.setNucleosRendimiento(2);
         apple.setTdp(8);
         apple.setVelocidad(12.16);
         apple.setArquitectura("ARM");
         apple.setEficiencia(true);
-        apple.imprimirDatos();
+        apple.imprimirDatos_Movil();
         apple.ahorro_Energia();
     }
 }
