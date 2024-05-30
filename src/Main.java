@@ -33,17 +33,18 @@ public class Main {
         // Integrante 2 Josue Guerra
         procesadores_intel procesadorintel1 = new procesadores_intel();
         System.out.println("\nProcesadores pc");
-        procesadorintel1.getMarca();
-        procesadorintel1.getModelo();
+        procesadorintel1.getNombre();
+        procesadorintel1.getArquitectura();
         procesadorintel1.getVelocidad();
-        procesadorintel1.getVelocidad();
+        procesadorintel1.getGrafica_integrada();
         procesadorintel1.getNucleos();
 
-        procesadorintel1.setMarca("Intel");
-        procesadorintel1.setModelo("Core i7");
+        procesadorintel1.setNombre("Intel");
+        procesadorintel1.setArquitectura("Core i7");
         procesadorintel1.setVelocidad(3.5);
         procesadorintel1.setNucleos(8);
         procesadorintel1.setGrafica_integrada(true);
+        procesadorintel1.imprimir_grafica();
         procesadorintel1.imprimirDatos();
 
         // Integrante 3 Adrian Ramos (El keepchup)

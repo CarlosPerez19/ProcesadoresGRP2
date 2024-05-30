@@ -40,9 +40,8 @@ public class procesadores_intel extends procesapc{
     }
 
     public void imprimir_grafica() {
-        System.out.println("Grafica" + grafica_integrada);
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo: " + modelo);
+        System.out.println("Grafica: " + grafica_integrada);
+
 
     }
 }
