@@ -60,8 +60,8 @@ public class PROCESADORES {
     public void imprimirDatos (){
         System.out.println("Nombre: " + getNombre());
         System.out.println("Nucleos: " + getNucleos());
-        System.out.println("TDP: " + getTdp());
-        System.out.println("Velocidad: " + getVelocidad());
+        System.out.println("TDP: " + getTdp() +" watts");
+        System.out.println("Velocidad: " + getVelocidad() + " Ghz");
         System.out.println("Arquitectura: " + getArquitectura());
     }
 }
