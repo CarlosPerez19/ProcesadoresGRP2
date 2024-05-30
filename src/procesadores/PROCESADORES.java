@@ -56,5 +56,13 @@ public class PROCESADORES {
     public void setArquitectura(String arquitectura) {
         this.arquitectura = arquitectura;
     }
+
+    public void imprimirDatos (){
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Nucleos: " + getNucleos());
+        System.out.println("TDP: " + getTdp());
+        System.out.println("Velocidad: " + getVelocidad());
+        System.out.println("Arquitectura: " + getArquitectura());
+    }
 }
 
