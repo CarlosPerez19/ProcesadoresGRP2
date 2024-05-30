@@ -6,5 +6,11 @@ public class Main {
         PROCESADORES pro = new PROCESADORES();
         System.out.printf("Biblioteca de Procesadores");
 
+        // Integran 1 Carlos (El Neeko)
+
+        // Integrante 2 Josue Guerra
+
+        // Integrante 3 Adrian Ramos (El keepchup)
+
     }
 }
