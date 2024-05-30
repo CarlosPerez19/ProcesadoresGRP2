@@ -2,12 +2,17 @@ package procesadores;
 
 public class procesadores_intel extends procesapc{
     Boolean grafica_integrada;
+    String marca;
+    String modelo;
+
 
     public procesadores_intel() {
     }
 
-    public procesadores_intel(Boolean grafica_integrada) {
+    public procesadores_intel(Boolean grafica_integrada, String marca, String modelo) {
         this.grafica_integrada = grafica_integrada;
+        this.marca = marca;
+        this.modelo = modelo;
     }
 
     public Boolean getGrafica_integrada() {
@@ -18,8 +23,27 @@ public class procesadores_intel extends procesapc{
         this.grafica_integrada = grafica_integrada;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     public void imprimir_grafica() {
-        System.out.println(grafica_integrada);
+        System.out.println("Grafica" + grafica_integrada);
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+
     }
 }
 
