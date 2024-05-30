@@ -16,6 +16,20 @@ public class Main {
         procesadorAMD1.setSensor_temperatura(true);
         procesadorAMD1.imprimir_datos();
 
+        PROCESADORES nuevoprocesador  = new PROCESADORES();
+        nuevoprocesador.getNombre();
+        nuevoprocesador.getArquitectura();
+        nuevoprocesador.getNucleos();
+        nuevoprocesador.getVelocidad();
+        nuevoprocesador.getTdp();
+
+        nuevoprocesador.setNombre("Ryzen 5 5660X");
+        nuevoprocesador.setArquitectura("x86");
+        nuevoprocesador.setNucleos(6);
+        nuevoprocesador.setVelocidad(3.5);
+        nuevoprocesador.setTdp(65);
+        nuevoprocesador.imprimirDatos();
+
         // Integrante 2 Josue Guerra
         procesadores_intel procesadorintel1 = new procesadores_intel();
         procesadorintel1.setVelocidad(3.5);
