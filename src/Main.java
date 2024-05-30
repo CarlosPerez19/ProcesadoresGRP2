@@ -44,7 +44,7 @@ public class Main {
         procesadorintel1.setVelocidad(3.5);
         procesadorintel1.setNucleos(8);
         procesadorintel1.setGrafica_integrada(true);
-        procesadorintel1.imprimir_datos();
+        procesadorintel1.imprimirDatos();
 
         // Integrante 3 Adrian Ramos (El keepchup)
         procesadores_moviles apple = new procesadores_moviles();
