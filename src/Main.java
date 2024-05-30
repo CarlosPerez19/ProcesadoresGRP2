@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import procesadores.PROCESADORES;
+import procesadores.procesadores_moviles;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +12,8 @@ public class Main {
         // Integrante 2 Josue Guerra
 
         // Integrante 3 Adrian Ramos (El keepchup)
+        procesadores_moviles appleA17 = new procesadores_moviles();
+
 
     }
 }
