@@ -11,7 +11,7 @@ public class Procesador_AMD extends PROCESADORES {
         this.sensor_temperatura = sensor_temperatura;
     }
 
-    public boolean isSensor_temperatura() {
+    public boolean getSensor_temperatura() {
         return sensor_temperatura;
     }
 
