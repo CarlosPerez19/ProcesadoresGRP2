@@ -7,15 +7,15 @@ import procesadores.procesadores_moviles;
 public class Main {
     public static void main(String[] args) {
         PROCESADORES pro = new PROCESADORES();
-        System.out.printf("Biblioteca de Procesadores");
+        System.out.println("Biblioteca de Procesadores");
 
         // Integran 1 Carlos (El Neeko)
-
 
         Procesador_AMD procesadorAMD1 = new Procesador_AMD();
         procesadorAMD1.getSensor_temperatura();
         procesadorAMD1.setSensor_temperatura(true);
         procesadorAMD1.imprimir_datos();
+        procesadorAMD1.imprimirDatos();
 
         PROCESADORES nuevoprocesador  = new PROCESADORES();
         nuevoprocesador.imprimirDatos();
