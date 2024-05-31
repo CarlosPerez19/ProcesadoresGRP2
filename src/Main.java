@@ -30,7 +30,6 @@ public class Main {
         nuevoprocesador.setNucleos(6);
         nuevoprocesador.setVelocidad(3.5);
         nuevoprocesador.setTdp(65);
-        nuevoprocesador.imprimirDatos();
 
         // Integrante 2 Josue Guerra
         procesadores_intel procesadorintel1 = new procesadores_intel();
@@ -48,6 +47,7 @@ public class Main {
         procesadorintel1.setNucleos(8);
         procesadorintel1.setGrafica_integrada(true);
         procesadorintel1.imprimir_grafica();
+        procesadorintel1.imprimir_Datosintel();
 
 
         // Integrante 3 Adrian Ramos (El keepchup)

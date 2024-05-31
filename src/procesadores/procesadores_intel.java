@@ -43,6 +43,15 @@ public class procesadores_intel extends procesapc{
         System.out.println("Grafica: " + grafica_integrada);
 
     }
+    public void imprimir_Datosintel (){
+        System.out.println("Esta es la clase principal en el primar nivel");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Total de Nucleos: " + getNucleos());
+        System.out.println("TDP: " + getTdp() +" watts");
+        System.out.println("Velocidad: " + getVelocidad() + " Ghz");
+        System.out.println("Arquitectura: " + getArquitectura());
+
+    }
 
     @Override
     public void imprimirDatos(){
