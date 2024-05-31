@@ -21,4 +21,9 @@ public class procesapc extends PROCESADORES{
     public void imprimir_datos () {
         System.out.println(scoket);
     }
+
+    @Override
+    public void imprimirDatos(){
+        System.out.println("Computador escritorio ");
+    }
 }

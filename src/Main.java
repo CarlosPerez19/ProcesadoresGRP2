@@ -11,12 +11,14 @@ public class Main {
 
         // Integran 1 Carlos (El Neeko)
 
+
         Procesador_AMD procesadorAMD1 = new Procesador_AMD();
         procesadorAMD1.getSensor_temperatura();
         procesadorAMD1.setSensor_temperatura(true);
         procesadorAMD1.imprimir_datos();
 
         PROCESADORES nuevoprocesador  = new PROCESADORES();
+        nuevoprocesador.imprimirDatos();
         nuevoprocesador.getNombre();
         nuevoprocesador.getArquitectura();
         nuevoprocesador.getNucleos();
@@ -33,6 +35,7 @@ public class Main {
         // Integrante 2 Josue Guerra
         procesadores_intel procesadorintel1 = new procesadores_intel();
         System.out.println("\nProcesadores pc");
+        procesadorintel1.imprimirDatos();
         procesadorintel1.getNombre();
         procesadorintel1.getArquitectura();
         procesadorintel1.getVelocidad();
@@ -45,12 +48,12 @@ public class Main {
         procesadorintel1.setNucleos(8);
         procesadorintel1.setGrafica_integrada(true);
         procesadorintel1.imprimir_grafica();
-        procesadorintel1.imprimirDatos();
+
 
         // Integrante 3 Adrian Ramos (El keepchup)
         procesadores_moviles apple = new procesadores_moviles();
-
         System.out.println("\nProcesadores de moviles\n");
+        apple.imprimirDatos();
         apple.setNombre("A17 Pro");
         apple.setNucleos(6);
         apple.setNucleosEficiencia(4);
@@ -61,5 +64,9 @@ public class Main {
         apple.setEficiencia(true);
         apple.imprimirDatos_Movil();
         apple.ahorro_Energia();
+
+        PROCESADORES procesadores = new PROCESADORES();
+
+
     }
 }

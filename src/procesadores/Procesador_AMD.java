@@ -22,4 +22,10 @@ public class Procesador_AMD extends PROCESADORES {
     public void imprimir_datos () {
         System.out.println("Sensor temperatura: " + sensor_temperatura);
     }
+
+    @Override
+    public void imprimirDatos(){
+        System.out.println("Clase Hija AMD ");
+    }
+
 }

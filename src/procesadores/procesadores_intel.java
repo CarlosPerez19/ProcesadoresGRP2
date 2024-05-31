@@ -42,7 +42,11 @@ public class procesadores_intel extends procesapc{
     public void imprimir_grafica() {
         System.out.println("Grafica: " + grafica_integrada);
 
+    }
 
+    @Override
+    public void imprimirDatos(){
+        System.out.println("Procesador Intel ");
     }
 }
 

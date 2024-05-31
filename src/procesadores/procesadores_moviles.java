@@ -47,4 +47,9 @@ public class procesadores_moviles extends PROCESADORES{
         System.out.println("Velocidad: " + getVelocidad() + " Ghz");
         System.out.println("Arquitectura: " + getArquitectura());
     }
+
+    @Override
+    public void imprimirDatos(){
+        System.out.println("Procesadores Moviles");
+    }
 }
